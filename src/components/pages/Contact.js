@@ -1,22 +1,40 @@
-import React from 'react';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ListGroup from 'react-bootstrap/ListGroup'
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
+function alertClicked() {
+  alert('You clicked the third ListGroupItem');
+}
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <Container>
+        <h1>Contact Page</h1>
+        <Row>
+          <Col>
+            <ListGroup defaultActiveKey="#link1">
+              <ListGroup.Item action target="_blank" href="https://github.com/evan-ebert17">
+                Github
+              </ListGroup.Item>
+              <ListGroup.Item action target="_blank" href="https://www.linkedin.com/in/evan-ebert-793b49213">
+                LinkedIn
+              </ListGroup.Item>
+              <ListGroup.Item action target="_blank" href = "evan.ebert17@gmail.com">
+                Email me!
+              </ListGroup.Item>
+              {/* <ListGroup.Item action onClick={alertClicked}>
+                This one is a button
+              </ListGroup.Item> */}
+            </ListGroup>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
