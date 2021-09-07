@@ -1,11 +1,26 @@
 :root {
     --fontcolor: #90ee90;
     --bgcolor: #1f1f1f;
+    --highlighted_text: #EFE9F4;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 * {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--bgcolor);
-    color: var(--fontcolor);
+}
+
+p,h1,h2,h3,h4,h5{
+    color:var(--fontcolor)
+}
+
+a {
+    color: var(--highlighted_text);
+}
+
+.pBorder {
+    color: var(--highlighted_text);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
 }

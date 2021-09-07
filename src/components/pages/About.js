@@ -1,17 +1,26 @@
-import React from 'react';
+// import React from 'react';
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import { } from "react-bootstrap";
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+// import ListGroup from 'react-bootstrap/ListGroup'
 
-export default function About() {
-  return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
-}
+// export default function About() {
+//   return (
+//     <div>
+//       <Container className="AboutHeader">
+//         <h1>About Page</h1>
+//       </Container>
+//         <div className="pBorder">
+//           <p>
+//             Hi, My name is Evan Ebert and I am a Full MERN Stack Web Developer.
+//             <br>
+//             </br>
+//             I decided to give web development a chance in Spring 2021 going to the <a href="https://techbootcamps.utexas.edu/">UTA Bootcamp</a>
+//           </p>
+
+//         </div>
+//     </div>
+//   );
+// }
