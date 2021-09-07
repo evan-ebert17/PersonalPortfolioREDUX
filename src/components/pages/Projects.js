@@ -18,12 +18,12 @@ import Particles from 'react-particles-js';
 
 export default function Projects() {
   return (
-    
+
     <div>
-      <Particles className="particlesDiv" params={{particles: {number: {value: 70,density: {enable: true,value_area: 1000,}},},}}/>
+      <div className="particlesDiv">
+        <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} /></div>
       <h1>Projects</h1>
-      {/* <Row>
-        <Col xs={6}> */}
+
       <div className="container">
         <img src={Proj3img} alt="React Portfolio Generator" className="image" style={{ width: "100%" }} />
         <div className="middle">

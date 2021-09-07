@@ -14,7 +14,8 @@ function alertClicked() {
 }
 export default function Contact() {
   return (
-    <div>
+    <div><div className="particlesDiv">
+      <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} /></div>
       <Container>
         <h1>Contact Page</h1>
         <Row>
@@ -26,7 +27,7 @@ export default function Contact() {
               <ListGroup.Item action target="_blank" href="https://www.linkedin.com/in/evan-ebert-793b49213">
                 LinkedIn
               </ListGroup.Item>
-              <ListGroup.Item action target="_blank" href = "evan.ebert17@gmail.com">
+              <ListGroup.Item action target="_blank" href="evan.ebert17@gmail.com">
                 Email me!
               </ListGroup.Item>
               {/* <ListGroup.Item action onClick={alertClicked}>
