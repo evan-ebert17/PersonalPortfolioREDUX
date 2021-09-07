@@ -12,6 +12,7 @@ export default function Home() {
       <Container className="HomeHeader">
         <h1>Home Page</h1>
       </Container>
+      <Col>
         <div className="pBorder">
           <p>
             Hi, My name is Evan Ebert and I am a Full MERN Stack Web Developer.
@@ -21,6 +22,9 @@ export default function Home() {
           </p>
 
         </div>
+        </Col>
+        <Col>
+        </Col>
     </div>
   );
 }

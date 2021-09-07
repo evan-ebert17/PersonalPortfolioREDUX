@@ -7,56 +7,69 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function Blog() {
+export default function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src=""
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={Gost}
-            alt="Text Based Adventure Game: Gost"
-          />
-          <Carousel.Caption>
-            <h5>Text Based Adventure Game: Gost</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="React Portfolio Generator" href="https://github.com/mwallis5110/React_Portfolio_Generator">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="" href="">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="" href="">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="" href="">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="" href="">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+
+      <div className="container">
+        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <div className="middle">
+          <div className="text">
+            <button ><a alt="" href="">Click here to view this project</a></button>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   );
 }
