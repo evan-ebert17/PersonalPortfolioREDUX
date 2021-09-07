@@ -9,7 +9,11 @@ import Col from 'react-bootstrap/Col';
 import Proj3img from "../../assets/proj3.png";
 import Proj2img from "../../assets/proj2.png";
 import FitnessT from "../../assets/FitnessT.png";
-import GithubIcon from "../../assets/githubimg.png"
+import GithubIcon from "../../assets/githubimg.png";
+import Gost from "../../assets/textbasedag.png";
+import WorkSched from "../../assets/workdaysched.png";
+import Ecommerce from "../../assets/ecommerceBackend.png";
+
 
 export default function Projects() {
   return (
@@ -36,7 +40,7 @@ export default function Projects() {
       </div>
 
       <div className="container">
-        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <img src={FitnessT}  alt="Fitness Tracker" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
           <a alt="FitnessTracker Github" target="_blank" href="https://github.com/evan-ebert17/Fitness-Tracker"><img src={GithubIcon} className="github"></img></a>
@@ -46,29 +50,29 @@ export default function Projects() {
       </div>
 
       <div className="container">
-        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <img src={Gost} alt="Text Based Adventure Game: Gost" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-          <a alt="Portfolio Github" target="_blank" href="https://github.com/mwallis5110/React_Portfolio_Generator"><img src={GithubIcon} className="github"></img></a>
+          <a alt="TextBasedGame Github" target="_blank" href="https://github.com/evan-ebert17/TextBased-Adventure"><img src={GithubIcon} className="github"></img></a>
           </div>
         </div>
 
       </div>
       <div className="container">
-        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <img src={WorkSched} alt="WorkDay Scheduler" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-          <a alt="Portfolio Github" target="_blank" href="https://github.com/mwallis5110/React_Portfolio_Generator"><img src={GithubIcon} className="github"></img></a>
+          <a alt="Work Day Scheduler" target="_blank" href="https://github.com/evan-ebert17/Work-Day-Scheduler"><img src={GithubIcon} className="github"></img></a>
           </div>
         </div>
 
       </div>
 
       <div className="container">
-        <img src="" alt="" className="image" style={{ width: "100%" }} />
+        <img src={Ecommerce} alt="Ecommerce Backend" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-          <a alt="Portfolio Github" target="_blank" href="https://github.com/mwallis5110/React_Portfolio_Generator"><img src={GithubIcon} className="github"></img></a>
+          <a alt="Ecommerce Github" target="_blank" href="https://github.com/evan-ebert17/Ecommerce"><img src={GithubIcon} className="github"></img></a>
           </div>
         </div>
 
