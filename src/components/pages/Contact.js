@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Particles from 'react-particles-js';
 
 function alertClicked() {
   alert('You clicked the third ListGroupItem');

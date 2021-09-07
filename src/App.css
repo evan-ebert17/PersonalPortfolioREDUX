@@ -16,8 +16,16 @@ p,h1,h2,h3,h4,h5{
     color:var(--fontcolor)
 }
 
+.introPara {
+    text-align: center;
+}
+
 a {
     color: var(--highlighted_text);
+}
+
+.particlesDiv {
+    z-index: 0;
 }
 
 .pBorder {

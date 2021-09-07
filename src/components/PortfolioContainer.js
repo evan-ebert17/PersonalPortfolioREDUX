@@ -32,7 +32,6 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-            <Particles className="particlesDiv" params={{particles: {number: {value: 70,density: {enable: true,value_area: 1000,}},},}}/>
     </div>
   );
 }
