@@ -27,12 +27,9 @@ export default function Contact() {
               <ListGroup.Item action target="_blank" href="https://www.linkedin.com/in/evan-ebert-793b49213">
                 LinkedIn
               </ListGroup.Item>
-              <ListGroup.Item action target="_blank" href="evan.ebert17@gmail.com">
-                Email me!
+              <ListGroup.Item>
+                Email me! evan.ebert17@gmail.com
               </ListGroup.Item>
-              {/* <ListGroup.Item action onClick={alertClicked}>
-                This one is a button
-              </ListGroup.Item> */}
             </ListGroup>
           </Col>
         </Row>

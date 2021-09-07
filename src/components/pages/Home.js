@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Particles from 'react-particles-js';
+import Image from 'react-bootstrap/Image'
+import Me from '../../assets/me.PNG';
 
 export default function Home() {
   return (
@@ -14,7 +16,12 @@ export default function Home() {
         <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} />
       </div>
       <Container className="HomeHeader">
-        <h1>Home Page</h1>
+        <Row className="rowish">
+          <h1>Home Page</h1>
+          <Col xs={6} md={4}>
+            <Image className="Me" src={Me} roundedCircle />
+          </Col>
+        </Row>
       </Container>
       <Col className="pBg">
         <div className="pBorder">
@@ -37,8 +44,8 @@ export default function Home() {
 
         </div>
       </Col>
-      <Col>
-      </Col>
+      {/* <Col>
+      </Col> */}
     </div>
   );
 }
