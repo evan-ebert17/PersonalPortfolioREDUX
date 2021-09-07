@@ -9,6 +9,11 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+h1{
+  text-align: center;
+}
+
+
 .rowish {
   justify-content: center;
   text-align: center;
