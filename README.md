@@ -9,3 +9,6 @@ Over the course of the UTA MERN Bootcamp we have done projects and honed our ski
 ## Functionality
 There are tabs at the bottom of the page that you can click to go to the tabs of the application.  
 When you hover over the images in the project section you are presented witha  button that takes you to the github repository.
+## Made by
+This project was made by
+Evan Ebert - https://github.com/evan-ebert17  
