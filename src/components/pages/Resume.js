@@ -4,7 +4,6 @@ import { } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Particles from 'react-particles-js';
-import Resume from '../../assets/Redone Resume MERN.pdf';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
         <Row className="rowish">
           <h1>Resume</h1>
           <Container className="resumeContainer">
-              {/* <embed src={Resume} width="775px" height="2100px" /> */}
               <iframe
                 src="https://docs.google.com/document/d/e/2PACX-1vS38CeAwhk46fr23mge2x9_12p4xqQ-8uIBf6hT-VbMc-M-6pSfPv60MPK5CPDtrepVTNbImXfDXoFU/pub?embedded=true"
                 className="resume"

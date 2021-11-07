@@ -110,6 +110,11 @@ max-height: 100vh;
     -ms-transform: translate(-50%, -50%)
   }
   
+.profCont {
+  margin-bottom: 10px;
+  border: 1px solid var(--highlighted_text);
+}
+
   .container:hover .image {
     opacity: 0.3;
   }
@@ -136,6 +141,8 @@ max-height: 100vh;
 
 .github {
     border-radius: 15%;
+    width: 100%;
+    height: 100%;
 }
 
 .resWidth {
