@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Particles from 'react-particles-js';
 import Image from 'react-bootstrap/Image'
-import Me from '../../assets/me.PNG';
+import Me from '../../assets/IMG_8389 (1).jpg';
 
 export default function Home() {
   return (
@@ -19,7 +19,11 @@ export default function Home() {
         <Row className="rowish">
           <h1>Home Page</h1>
           <Col xs={6} md={4}>
-            <Image className="Me" src={Me} roundedCircle />
+            <div className="meDiv">
+              <div className="imageHolder">
+                {/* <img classname="me" src={Me} alt="A picture of Evan Ebert!"></img> */}
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

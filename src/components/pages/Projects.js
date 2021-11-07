@@ -1,11 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { } from "react-bootstrap";
-import { Carousel } from 'react-bootstrap';
-// import Gost from '../../assets/textbasedag.png'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Proj3img from "../../assets/proj3.png";
 import Proj2img from "../../assets/proj2.png";
 import FitnessT from "../../assets/FitnessT.png";
@@ -28,20 +23,16 @@ export default function Projects() {
         <img src={Proj3img} alt="React Portfolio Generator" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="Portfolio Github" target="_blank" href="https://github.com/mwallis5110/React_Portfolio_Generator"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/mwallis5110/React_Portfolio_Generator"><img src={GithubIcon} alt="Portfolio Github" className="github"></img></a>
           </div>
         </div>
       </div>
-      {/* </Col> */}
-      {/* // <Col><p>
-         This Project, much like SquareSpace and WordPress, generates a React Webpage based on user input</p></Col>
-       </Row> */}
 
       <div className="container">
         <img src={Proj2img} alt="Windows 95 Emulator" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="Windows 95 Github" target="_blank" href="https://github.com/Jguiro09/Windows-95"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/Jguiro09/Windows-95"><img src={GithubIcon} alt="Windows 95 Github" className="github"></img></a>
           </div>
         </div>
 
@@ -51,7 +42,7 @@ export default function Projects() {
         <img src={FitnessT} alt="Fitness Tracker" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="FitnessTracker Github" target="_blank" href="https://github.com/evan-ebert17/Fitness-Tracker"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/evan-ebert17/Fitness-Tracker"><img alt="FitnessTracker Github" src={GithubIcon} className="github"></img></a>
           </div>
         </div>
 
@@ -61,7 +52,7 @@ export default function Projects() {
         <img src={Gost} alt="Text Based Adventure Game: Gost" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="TextBasedGame Github" target="_blank" href="https://github.com/evan-ebert17/TextBased-Adventure"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/evan-ebert17/TextBased-Adventure"><img src={GithubIcon} alt="TextBasedGame Github" className="github"></img></a>
           </div>
         </div>
 
@@ -70,7 +61,7 @@ export default function Projects() {
         <img src={WorkSched} alt="WorkDay Scheduler" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="Work Day Scheduler" target="_blank" href="https://github.com/evan-ebert17/Work-Day-Scheduler"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/evan-ebert17/Work-Day-Scheduler"><img  src={GithubIcon} alt="Work Day Scheduler" className="github"></img></a>
           </div>
         </div>
 
@@ -80,7 +71,7 @@ export default function Projects() {
         <img src={Ecommerce} alt="Ecommerce Backend" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
-            <a alt="Ecommerce Github" target="_blank" href="https://github.com/evan-ebert17/Ecommerce"><img src={GithubIcon} className="github"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/evan-ebert17/Ecommerce"><img src={GithubIcon} alt="Ecommerce Github" className="github"></img></a>
           </div>
         </div>
 
