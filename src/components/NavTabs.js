@@ -2,10 +2,24 @@ import React from 'react';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
+
+// window.onscroll = function() {myFunction()};
+
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav>
-      <ul className="justify-content-center nav nav-tabs">
+      <ul id="navbar"className="justify-content-center nav nav-tabs">
         <li className="nav-item">
           <a
             href="#home"

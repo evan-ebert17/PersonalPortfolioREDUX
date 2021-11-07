@@ -5,14 +5,14 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 * {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
   text-align: center;
 }
-
 
 .rowish {
   justify-content: center;
@@ -37,6 +37,8 @@ a {
 
 #tsparticles {
     height: 100vh;
+    width: 95vw;
+    position: absolute;
     z-index: -1;
 }
 
@@ -45,14 +47,26 @@ a {
 height: 100%;
 max-width: 100vw;
 max-height: 100vh;
-
 }
 
 .particlesDiv{
-  position: relative;
-    z-index: 1;
-    width: 100%;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  /* background-color: var(--bgcolor); */
+}
 
+.HomeHeader {
+  width: 100%;
+}
+
+.resumeContainer {
+  height: 950px;
+}
+
+.resume {
+  width: 100%;
+  height: 100%;
 }
 
 .pBg {
@@ -67,9 +81,14 @@ max-height: 100vh;
     justify-content: center;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .container {
     position: relative;
-    width: 50%;
   }
   
   .image {
@@ -119,7 +138,21 @@ max-height: 100vh;
     border-radius: 15%;
 }
 
+.resWidth {
+  width: 100%;
+}
+
   .github:hover {
     cursor: pointer;
     opacity: 0.3;
   }
+
+@media screen and (max-width:1335px){
+  .resume {
+    width: 100%;
+
+  }
+  .resumeContainer {
+    width: 1500px;
+  }
+}

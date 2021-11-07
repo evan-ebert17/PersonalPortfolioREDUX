@@ -12,15 +12,18 @@ export default function Home() {
       <div className="particlesDiv">
         <Particles params={{ particles: { number: { value: 70, density: { enable: true, value_area: 1000, } }, }, }} />
       </div>
-      <Container className="HomeHeader">
+      <Container className="HomeHeader resWidth">
         <Row className="rowish">
           <h1>Resume</h1>
-        <div className="resumeContainer">
-          <div className="resume">
-          <embed src={Resume} width="775px" height="2100px" />
-          </div>
-
-        </div>
+          <Container className="resumeContainer">
+              {/* <embed src={Resume} width="775px" height="2100px" /> */}
+              <iframe
+                src="https://docs.google.com/document/d/e/2PACX-1vS38CeAwhk46fr23mge2x9_12p4xqQ-8uIBf6hT-VbMc-M-6pSfPv60MPK5CPDtrepVTNbImXfDXoFU/pub?embedded=true"
+                className="resume"
+                frameBorder="0"
+                scrolling="auto"
+              ></iframe>
+          </Container>
         </Row>
       </Container>
     </div>
