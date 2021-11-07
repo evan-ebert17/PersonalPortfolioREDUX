@@ -93,6 +93,16 @@ height: 100%;
     opacity: 0.3;
   }
   
+.nav-link {
+  color: var(--fontcolor);
+  border-color: var(--bgcolor);
+}
+
+.nav-link:hover {
+ color: var(--highlighted_text);
+ border-color: var(--bgcolor);
+}
+
   .container:hover .middle {
     opacity: 1;
   }
