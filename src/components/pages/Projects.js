@@ -39,7 +39,7 @@ export default function Projects() {
 
       </Container>
 
-      <Container className="profCont">
+      {/* <Container className="profCont">
         <img src={FitnessT} alt="Fitness Tracker" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
@@ -47,7 +47,7 @@ export default function Projects() {
           </div>
         </div>
 
-      </Container>
+      </Container> */}
 
       <Container className="profCont">
         <img src={Gost} alt="Text Based Adventure Game: Gost" className="image" style={{ width: "100%" }} />
@@ -69,7 +69,7 @@ export default function Projects() {
 
       </Container>
 
-      <Container className="profCont">
+      {/* <Container className="profCont">
         <img src={Ecommerce} alt="Ecommerce Backend" className="image" style={{ width: "100%" }} />
         <div className="middle">
           <div className="text">
@@ -77,7 +77,7 @@ export default function Projects() {
           </div>
         </div>
 
-      </Container>
+      </Container> */}
 
     </div>
   );
